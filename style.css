@@ -1,0 +1,44 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Raleway', sans-serif;   /*-- font-family: 'Pacifico', cursive; --*/
+}
+
+main {
+    height: 6346px;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.fresh-life {
+    height: 1000px;
+}
+
+.about {
+    height: 700px;
+}
+
+.our-services {
+    height: 790px;
+}
+
+.gallery {
+    height: 1536px;
+}
+
+.subscribe {
+    height: 500px;
+}
+
+.blog {
+    height: 865px;
+}
+
+.contacts {
+    height: 865px;
+}
+
+.footer {
+    height: 90px;
+}
