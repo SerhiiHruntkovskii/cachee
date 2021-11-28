@@ -33,14 +33,27 @@ main {
 
 .blog {
     height: 865px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background: #b07cf7;
 }
 
 .contacts {
     height: 865px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* background-color: coral; */
     background-image: url(/assets/footer-background.svg);
-}
+    /* background-size: 100%; */
+    }
 
 .footer {
-    height: 90px;
+height: 90px;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #b9b9b9;
+background: #262626;
+display: flex;
+justify-content: space-around;
 }
