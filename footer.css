@@ -1,0 +1,362 @@
+/* BOX BLOG */
+
+.blog-title {
+    width: 230px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    font-size: 90px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    /* font-family: "Raleway"; */
+    text-align: center;
+    /* background-color: coral; */
+}
+
+.blog-about {
+    width: 570px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    text-align: center;
+    /* background: coral; */
+}
+
+.blog-img {
+    width: 1170px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* background: coral; */
+}
+
+.blog_fresh {
+    width: 370px;
+    height: 310px;
+    background: url(/assets/blog_fresh.svg) no-repeat left;
+    position: relative;
+}
+
+.blog_14now-1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* background: #4f555e; */
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(79, 85, 94);
+    background-color: rgba(26, 46, 77, 0.4);
+}
+
+.blog_now-1 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #ffffff;
+    position: relative;
+}
+
+.blog__gradient1 {
+    position: absolute;
+    z-index: 20;
+    margin-top: 0px;
+    width: 370px;
+    height: 310px;
+    background: linear-gradient(to top, #0a0908 35%, #c2c2c6 40%, #374255 80%);
+    opacity: 0.3;
+}
+
+
+.blog_about_fresh {
+    width: 370px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: 22px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+}
+
+.blog_auskteez {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #e2e3e2;
+}
+
+.blog_soup {
+    width: 370px;
+    height: 310px;
+    background: url(/assets/blog_soup.svg) no-repeat center bottom;
+    position: relative;
+}
+
+.blog_14now-2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 430px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(79, 85, 94);
+    background-color: rgba(26, 46, 77, 0.4);
+}
+
+.blog_now-2 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #ffffff;
+    position: relative;
+}
+
+.blog__gradient2 {
+    position: absolute;
+    z-index: 20;
+    margin-top: 0px;
+    margin-left: 400px;
+    width: 370px;
+    height: 310px;
+    background: linear-gradient(to top, #0a0908 35%, #c2c2c6 40%, #374255 80%);
+    opacity: 0.3;
+}
+
+.blog_about_soup {
+    width: 370px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: 420px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+}
+
+.blog_raspberry {
+    width: 370px;
+    height: 310px;
+    background: url(/assets/blog_raspberry.svg) no-repeat center;
+    position: relative;
+}
+
+.blog_14now-3 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 830px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(79, 85, 94);
+    background-color: rgba(26, 46, 77, 0.4);
+}
+
+.blog_now-3 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #ffffff;
+    position: relative;
+}
+
+.blog__gradient3 {
+    position: absolute;
+    z-index: 20;
+    margin-top: 0px;
+    margin-left: 800px;
+    width: 370px;
+    height: 310px;
+    background: linear-gradient(to top, #0a0908 35%, #c2c2c6 40%, #374255 80%);
+    opacity: 0.3;
+}
+
+.blog_about_raspberry {
+    width: 370px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: 820px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+}
+
+.blog-button {
+    width: 200px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: #f72b3b;
+    font-size: 20px;
+    line-height: 55px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blog-button:hover {
+    background: rgb(53, 167, 110);
+}
+.blog-button:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+/* BOX CONTACT */
+
+
+.contact__title {
+    width: 345px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: -50px; */
+    /* margin-bottom: 50px; */
+    padding-top: 100px;
+    font-size: 90px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact__about {
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contact-form-all {
+    width: 1500px;
+    height: 445px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.form__container {
+    width: 500px;
+    margin-top: 45px;
+    margin-left: 160px;
+}
+
+.form-input[type="text"],
+.form-textarea {
+    width: 445px;
+    padding: 10px;
+    background: #76d9d8;
+    resize: vertical;
+}
+
+.form-input[type="text"]:hover {
+    background-color: #00c4c4;
+    border-left-width: 5px; /* як поставити колір? */
+    font-weight: 700;
+}
+
+.form-textarea[type="text"]:hover {
+    /* чомусь не працює */
+    background-color: #00c4c4;
+    border-left-width: 5px;
+}
+
+.form-row {
+    height: 65px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.form-message-row {
+    height: 250px;
+}
+
+.contact__adress {
+    width: 330px;
+    height: 165px;
+    margin-top: 45px;
+    margin-right: 330px;
+}
+
+.adress-title {
+    height: 5px;
+    margin-top: 0;
+    font-size: 17px;
+    line-height: 20px;
+    color: #262626;
+    font-weight: 700;
+}
+
+.adress-description {
+    height: 14px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #262626;
+    }
+
+/* BOX FOOTER */
+
+.footer__company {
+    font-size: 16px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+}
+
+.footer__cahee {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Pacifico";
+    text-align: right;
+}
+
+.footer__made {
+    font-size: 15px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+}
+
+.footer__love {
+    color: crimson;
+}
