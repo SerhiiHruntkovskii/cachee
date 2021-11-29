@@ -13,6 +13,9 @@
     max-width: 1500px;
     width: 100%;
     margin: 0 auto auto;
+
+    background-image: url('/assets/header-bg.png');
+    background-size: cover;
 }
 
 .fresh-life__nav {
@@ -75,8 +78,23 @@
 
 .fresh-life__block {
     height: 670px;
-}s
+}
+
+
+
+
+
+
+
 
 .fresh-life__mouse-img {
-    height: 180px;
+    height: 185px;
+    text-align: center;
+}
+
+.fresh-life__mouse-img img {
+    height: 40px;
+    width: 24px;
+
+    padding-top: 75px;
 }
