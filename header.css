@@ -1,0 +1,82 @@
+/*-- Global styles --*/
+
+.inside-content {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto auto;
+}
+
+/*-- 1st block Fresh Life --*/
+
+.fresh-life {
+    height: 1000px;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto auto;
+}
+
+.fresh-life__nav {
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fresh-life__nav-cachee-text {
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+}
+
+.fresh-life__nav-cachee-text a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.fresh-life___nav-links {
+    max-width: 570px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fresh-life___nav-link {
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fresh-life___nav-link:hover {
+    height: 30px;
+    cursor: pointer;
+}
+
+.fresh-life___nav-link:hover::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #ff6033;
+    position: relative;
+    top: 0;
+}
+
+.fresh-life___nav-link a {
+    text-decoration: none;
+
+    font-size: 16px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 700;
+}
+
+.fresh-life__block {
+    height: 670px;
+}s
+
+.fresh-life__mouse-img {
+    height: 180px;
+}
