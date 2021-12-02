@@ -10,9 +10,7 @@
     line-height: 25px;
     color: #ffffff;
     font-weight: 700;
-    /* font-family: "Raleway"; */
     text-align: center;
-    /* background-color: coral; */
 }
 
 .blog-about {
@@ -81,7 +79,6 @@
     background: linear-gradient(to top, #0a0908 35%, #c2c2c6 40%, #374255 80%);
     opacity: 0.3;
 }
-
 
 .blog_about_fresh {
     width: 370px;
@@ -208,31 +205,37 @@
     position: absolute;
 }
 
-.blog-button {
+.blog__form {
     width: 200px;
     height: 55px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+
+.blog__button {
+    width: 200px;
+    height: 55px;
     background: #f72b3b;
     font-size: 20px;
-    line-height: 55px;
+    line-height: 50px;
     color: #ffffff;
     font-weight: 300;
     text-align: center;
+    border: 1px;
     cursor: pointer;
 }
 
-.blog-button:hover {
-    background: rgb(53, 167, 110);
+.blog__button:hover {
+    background: #323b4c;
 }
-.blog-button:active {
-    background: rgb(33, 147, 90);
-    box-shadow: 0 3px rgb(33, 147, 90) inset;
+
+.blog__button:active {
+    background: #758935;
+    box-shadow: 0 3px #758935 inset;
 }
 
 /* BOX CONTACT */
-
 
 .contact__title {
     width: 345px;
@@ -264,7 +267,7 @@
 
 .contact-form-all {
     width: 1500px;
-    height: 445px;
+    /* height: 445px; */
     display: flex;
     justify-content: space-between;
     margin-left: auto;
@@ -273,33 +276,46 @@
 }
 
 .form__container {
-    width: 500px;
+    height: 445px;
     margin-top: 45px;
     margin-left: 160px;
 }
 
-.form-input[type="text"],
+.form-input {
+    width: 500px;
+    margin-bottom: 15px;
+    height: 50px;
+    background-color: #76d9d899;
+    border-width: 0px 0px 0px 0px;
+}
+
 .form-textarea {
-    width: 445px;
-    padding: 10px;
-    background: #76d9d8;
+    width: 500px;
+    height: 250px;
+    background-color: #76d9d899;
     resize: vertical;
+    border-width: 0px 0px 0px 0px;
 }
 
-.form-input[type="text"]:hover {
+.form-input:focus {
     background-color: #00c4c4;
-    border-left-width: 5px; /* як поставити колір? */
-    font-weight: 700;
-}
-
-.form-textarea[type="text"]:hover {
-    /* чомусь не працює */
-    background-color: #00c4c4;
+    border-left-color: #355b82;
     border-left-width: 5px;
+    font-weight: 700;
+    width: 495px;
+    outline: none;
+}
+
+.form-textarea:focus {
+    background-color: #00c4c4;
+    border-left-color: #355b82;
+    border-left-width: 5px;
+    font-weight: 700;
+    width: 495px;
+    outline: none;
 }
 
 .form-row {
-    height: 65px;
     font-size: 15px;
     line-height: 25px;
     color: #ffffff;
@@ -307,7 +323,10 @@
 }
 
 .form-message-row {
-    height: 250px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .contact__adress {
@@ -331,15 +350,26 @@
     font-size: 20px;
     line-height: 20px;
     color: #262626;
-    }
+}
 
 /* BOX FOOTER */
+
+.footer__box {
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #b9b9b9;
+    /* background: #262626; */
+    display: flex;
+    justify-content: space-around;
+}
 
 .footer__company {
     font-size: 16px;
     line-height: 25px;
     color: #b9b9b9;
     font-weight: 300;
+    margin-top: 35px;
 }
 
 .footer__cahee {
@@ -348,6 +378,7 @@
     font-weight: 400;
     font-family: "Pacifico";
     text-align: right;
+    margin-top: 35px;
 }
 
 .footer__made {
@@ -355,6 +386,7 @@
     line-height: 25px;
     color: #b9b9b9;
     font-weight: 300;
+    margin-top: 35px;
 }
 
 .footer__love {
