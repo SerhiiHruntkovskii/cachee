@@ -7,7 +7,7 @@ body {
 
 main {
     height: 6346px;
-    max-width: 1500px;
+    /* max-width: 1500px; потрібно прибрати*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -34,19 +34,12 @@ main {
 }
 
 .blog {
-    height: 865px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     background: #b07cf7;
+    background-size: 100%;
 }
 
-.contacts {
-    height: 865px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    /* background-color: coral; */
+.contact {
+    background-color: coral;
     background: url(/assets/contact_background_3.png) repeat top;
     image-rendering: optimizeQuality;
     background-size: 100%;
