@@ -8,12 +8,17 @@
 
 /*-- 1st block Fresh Life --*/
 
-.header-container {
+.header {
     width: 100%;
     background-color: white;
 }
 
 .fresh-life {
+    width: 100%;
+    background-color: #f9f8fb;
+}
+
+.fresh-life__content {
     height: 1000px;
     max-width: 1500px;
     width: 100%;
@@ -143,4 +148,46 @@
     width: 24px;
 
     padding-top: 75px;
+}
+
+.about {
+    width: 100%;
+    background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #00a09f 100%);
+}
+
+.about__content {
+    display: flex;
+}
+
+.about-raspberry {
+    margin-top: 27px;
+}
+
+.about-text {
+    margin-top: 200px;
+    margin-left: 70px;
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text__block-title {
+    margin: 0;
+    margin-bottom: 35px;
+
+    font-size: 90px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.about-text__block-text {
+    margin: 0;
+    margin-top: 10px;
+    width: 500px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
 }
