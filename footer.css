@@ -238,11 +238,13 @@
     box-shadow: 0 3px #758935 inset;
 }
 
-/* BOX CONTACT */
+/* BLOCK CONTACT */
 
 .contact-container {
     height: 865px;
     width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -362,14 +364,16 @@
     color: #262626;
 }
 
-/* BOX FOOTER */
+/* BLOCK FOOTER */
 
-.footer__box {
+.footer__container {
     height: 90px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #b9b9b9;
-    /* background: #262626; */
     display: flex;
     justify-content: space-around;
 }
