@@ -1,14 +1,16 @@
-html, body {
+html,
+body {
     margin: 0 auto;
     padding: 0;
-    background-color: gray;
-    font-family: 'Raleway', sans-serif;   /*-- font-family: 'Pacifico', cursive; --*/
+    font-family: "Raleway", sans-serif; /*-- font-family: 'Pacifico', cursive; --*/
 }
 
 main {
     height: 6346px;
+    /* max-width: 1500px; потрібно прибрати*/
     width: 100%;
-    margin: 0 auto auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fresh-life {
@@ -32,28 +34,19 @@ main {
 }
 
 .blog {
-    height: 865px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     background: #b07cf7;
+    background-size: 100%;
 }
 
-.contacts {
-    height: 865px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    /* background-color: coral; */
-    background-image: url(/assets/footer-background.svg);
-    /* background-size: 100%; */
-    }
+.contact {
+    background-color: coral;
+    background: url(/assets/contact_background_3.png) repeat top;
+    image-rendering: optimizeQuality;
+    background-size: 100%;
+}
 
 .footer {
-height: 90px;
-margin-top: 0px;
-margin-bottom: 0px;
-color: #b9b9b9;
-background: #262626;
-display: flex;
-justify-content: space-around;
+    margin-top: 0px;
+    max-width: 100%;
+    background: #262626;
 }
