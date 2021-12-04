@@ -1,7 +1,12 @@
 .gallery {
-    width: 1500px;
     height: 1536px;
     background-color: #ffe92f;
+    background-size: 100%;
+}
+.gallery-item {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gallery-top {
     padding-top: 47px;
@@ -121,8 +126,13 @@
     background-image: url(/assets/subscribe_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 165px;
+    padding-left: 320px;
     background-color: #ffffff;
+}
+.subscribe-item {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .subscribe-block {
     width: 572px;
