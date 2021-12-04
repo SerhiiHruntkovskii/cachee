@@ -150,6 +150,8 @@
     padding-top: 75px;
 }
 
+/*-- 2nd block About Us --*/
+
 .about {
     width: 100%;
     background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #00a09f 100%);
@@ -190,4 +192,77 @@
     line-height: 27px;
     color: #ffffff;
     font-weight: 300;
+}
+
+/*-- 3rd block Our services --*/
+
+.our-services {
+    width: 100%;
+    background: #70bfff;
+}
+
+.our-services__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-services__nav {
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.our-services__nav-btn {
+    height: 100px;
+    width: 400px;
+
+    padding: 0;
+    margin-bottom: 20px;
+
+    border: 0;
+
+    display: flex;
+
+    cursor: pointer;
+}
+
+.our-services__nav-btn-name {
+    height: 100px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 700;
+
+    border-right: 1px solid #9d9d9d;
+}
+
+.our-services__nav-btn img {
+    height: 100px;
+    width: 100px;
+}
+
+.our-services_text {
+    height: 520px;
+    width: 550px;
+
+    margin-top: 105px;
+    margin-left: 130px;
+
+    background-image: url("/assets/our-services_tomato.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our-services__block-title {
+    font-size: 90px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
 }
