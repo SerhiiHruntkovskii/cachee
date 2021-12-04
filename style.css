@@ -34,11 +34,15 @@ main {
 }
 
 .blog {
+    margin-left: auto;
+    margin-right: auto;
     background: #b07cf7;
     background-size: 100%;
 }
 
 .contact {
+    margin-left: auto;
+    margin-right: auto;
     background-color: coral;
     background: url(/assets/contact_background_3.png) repeat top;
     image-rendering: optimizeQuality;
