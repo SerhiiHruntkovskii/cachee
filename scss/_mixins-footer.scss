@@ -1,0 +1,23 @@
+@import "constants-footer";
+
+
+// for footer
+
+@mixin shadow-blog-14now {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(79, 85, 94);
+    background-color: rgba(26, 46, 77, 0.4);
+}
+
+@mixin shadow-blog-picture {
+}
