@@ -54,7 +54,8 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    margin-left: 30px;
+    margin-left: 30px; /* change */
+
     margin-top: 30px;
     border-radius: 4px;
     font-size: 32px;
@@ -87,7 +88,8 @@
     width: 370px;
     height: 80px;
     margin-top: 200px;
-    margin-left: 22px;
+    margin-left: 22px; /* change */
+
     font-size: 20px;
     line-height: 25px;
     color: #ffffff;
@@ -113,7 +115,8 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    margin-left: 430px;
+    margin-left: 430px; /* change */
+
     margin-top: 30px;
     border-radius: 4px;
     font-size: 32px;
@@ -136,7 +139,8 @@
     position: absolute;
     z-index: 20;
     margin-top: 0px;
-    margin-left: 400px;
+    margin-left: 400px; /* change */
+
     width: 370px;
     height: 310px;
     background: linear-gradient(to top, #0a0908 35%, #c2c2c6 40%, #374255 80%);
@@ -147,7 +151,8 @@
     width: 370px;
     height: 80px;
     margin-top: 200px;
-    margin-left: 420px;
+    margin-left: 420px; /* change */
+
     font-size: 20px;
     line-height: 25px;
     color: #ffffff;
@@ -166,7 +171,8 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    margin-left: 830px;
+    margin-left: 830px; /* change */
+
     margin-top: 30px;
     border-radius: 4px;
     font-size: 32px;
@@ -189,7 +195,8 @@
     position: absolute;
     z-index: 20;
     margin-top: 0px;
-    margin-left: 800px;
+    margin-left: 800px; /* change */
+
     width: 370px;
     height: 310px;
     background: linear-gradient(to top, #0a0908 35%, #c2c2c6 40%, #374255 80%);
@@ -200,7 +207,8 @@
     width: 370px;
     height: 80px;
     margin-top: 200px;
-    margin-left: 820px;
+    margin-left: 820px; /* change */
+
     font-size: 20px;
     line-height: 25px;
     color: #ffffff;
@@ -221,7 +229,7 @@
     height: 55px;
     background: #f72b3b;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 25px;
     color: #ffffff;
     font-weight: 300;
     text-align: center;
@@ -230,12 +238,12 @@
 }
 
 .blog__button:hover {
-    background: #323b4c;
+    background: #5585a2;
 }
 
 .blog__button:active {
-    background: #758935;
-    box-shadow: 0 3px #758935 inset;
+    background: #5585a2;
+    box-shadow: 0 3px #5585a2 inset;
 }
 
 /* BLOCK CONTACT */

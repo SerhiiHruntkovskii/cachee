@@ -1,13 +1,25 @@
-
-
 $container-max-width: 1200px;
-$container-padding: 20px;
+$container-padding: 15px;
 
-$color-neural: #eee;
-$color-theme: #fff;
+// нейтральні
+$color-neural: white;
+// section_header
+$color-fresh-life: #f9f8fb;
+$color-about-us: #00afaf;
+$color-our-servises: #70bfff;
+
+// section_body
+$color-gallery: #ffe92f;
+$color-subscribe: #fff;
+// section_footer
+$color-blog: #b07cf7;
+$color-contact: url(/assets/contact_background_3.png) repeat top;
+$color-footer: #262626;
+// addition
 $color-active: #2282ee;
-$color-text: #333;
+$color-text: #262626;
 
+// Screens
 // 1920
 $screen-large: 1600px;
 $screen-medium: 1280px;
@@ -15,4 +27,3 @@ $screen-tablet: 1024px;
 $screen-small: 720px;
 $screen-xs: 480px;
 // 320
-

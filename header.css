@@ -154,7 +154,7 @@
 
 .about {
     width: 100%;
-    background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #00a09f 100%);
+    background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afaf 68%, #00a09f 100%);
 }
 
 .about__content {
