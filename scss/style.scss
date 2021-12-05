@@ -1,5 +1,9 @@
-@import "constants";
-@import "mixins";
+@import "style";
+@import "_constants";
+@import "_mixins";
+@import "_header";
+@import "_body";
+@import "_footer";
 
 html,
 body {
@@ -11,14 +15,59 @@ body {
     font-family: "Raleway", sans-serif; /*-- font-family: 'Pacifico', cursive; --*/
 }
 
+// from constants
+// $container-max-width: 1170px;
+// $container-padding: 15px;
 .container {
-    max-width: 1200px;
+    width: 100%;
+    max-width: $container-max-width + ($container-padding * 2);
+    padding: 0 $container-padding;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
     box-sizing: border-box;
     }
+
+.fresh-life {
+    height: 1000px;
+}
+
+.about {
+    height: 700px;
+}
+
+.our-services {
+    height: 790px;
+}
+
+.gallery {
+    height: 1536px;
+}
+
+.subscribe {
+    height: 500px;
+}
+
+.blog {
+    margin-left: auto;
+    margin-right: auto;
+    background: #b07cf7;
+    background-size: 100%;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    background: url(/assets/contact_background_3.png) repeat top;
+    image-rendering: optimizeQuality;
+    background-size: 100%;
+}
+
+.footer {
+    margin-top: 0px;
+    max-width: 100%;
+    background: #262626;
+}
+
 
 button {
     &.button_standart {
