@@ -1,0 +1,31 @@
+@import "constants";
+
+@mixin with-shadow {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+@mixin media-screen-large {
+    @media screen and (max-width: $screen-large) {
+        @content;
+    }
+}
+@mixin media-screen-medium {
+    @media screen and (max-width: $screen-medium) {
+        @content;
+    }
+}
+@mixin media-screen-tablet {
+    @media screen and (max-width: $screen-tablet) {
+        @content;
+    }
+}
+@mixin media-screen-small {
+    @media screen and (max-width: $screen-small) {
+        @content;
+    }
+}
+@mixin media-screen-xs {
+    @media screen and (max-width: $screen-xs) {
+        @content;
+    }
+}
