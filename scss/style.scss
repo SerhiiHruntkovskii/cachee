@@ -1,9 +1,8 @@
-@import "style";
-@import "_constants";
-@import "_mixins";
-@import "_header";
-@import "_body";
-@import "_footer";
+@import "header";
+@import "body";
+@import "footer";
+@import "constants";
+@import "mixins";
 
 html,
 body {
